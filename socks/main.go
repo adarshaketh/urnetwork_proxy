@@ -160,6 +160,7 @@ func main() {
 				"my device",
 				"socks5",
 				"0.0.0",
+				&clientID,
 				// connect.DefaultClientSettingsNoNetworkEvents,
 				connect.DefaultClientSettings,
 				connect.DefaultApiMultiClientGeneratorSettings(),
